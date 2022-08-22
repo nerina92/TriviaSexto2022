@@ -4,6 +4,8 @@ import android.content.Context;
 
 import java.util.ArrayList;
 
+//en el proyecto explicar que las preguntas hoy son locales pero que se evauo usar una api en un futuro
+//uso libreria picaso y archivos locales... explicar diferencia
 public class Controller {
     ArrayList<Pregunta> preguntas;
 
@@ -11,12 +13,11 @@ public class Controller {
 
         preguntas = new ArrayList<>();
 
-
     //String tema= "";
         Pregunta p1=null, p2=null, p3=null, p4=null, p5=null, p6=null, p7=null, p8=null, p9=null, p10=null;
         Pregunta p11=null, p12=null, p13=null, p14=null, p15=null, p16=null, p17=null, p18=null, p19=null, p20=null ,p21=null, p22=null, p23=null;
     switch (tema) {
-            case "matematica":
+            case "matemática":
                 p1= new Pregunta("¿Cuanto es 6+3?", "https://i.ytimg.com/vi/Ys7XT3MFosE/maxresdefault.jpg",
                         "12","15","9","11", 3);
                 p2 = new Pregunta("¿Cuantos es 4-2?", "https://content.anton.app/files/?fileId=image%2Flsg_032f1cc3cf&etag=f9b2-6021.jpg",
@@ -51,7 +52,7 @@ public class Controller {
             p9 = new Pregunta(context.getString(R.string.Pregunta2), "https://media.discordapp.net/attachments/970748327568224289/978349549892546560/ama.jpg?width=1164&height=655",context.getString(R.string.op12),context.getString(R.string.op15),context.getString(R.string.op17),context.getString(R.string.op112),4);//el entero es el numero de respuesta correcta
             p10 = new Pregunta(context.getString(R.string.Pregunta2), "https://media.discordapp.net/attachments/970748327568224289/978349549330501702/rojo.jpg",context.getString(R.string.op110),context.getString(R.string.op13),context.getString(R.string.op17),context.getString(R.string.op114),2);//el entero es el numero de respuesta correcta
                 break;
-        case "biologia":
+        case "biología":
             p1 = new Pregunta(context.getString(R.string.p1),
                     //"https://educacion30.b-cdn.net/wp-content/uploads/2016/04/animales-destacada.jpg",
                     R.drawable.pregunta1,"gato", "lobo", "zorro", "perro", 2);
@@ -87,7 +88,7 @@ public class Controller {
                     R.drawable.pregunta10, // "https://www.periodicoelgancho.com/wp-content/uploads/2015/04/noticia-huevo-peque%C3%B1o61.jpg",
                     "Gallina", "Canario", "Loro", "Colibri", 4);
             break;
-        case "geografia":
+        case "geografía":
             p1 = new Pregunta(context.getString(R.string.Pregunta),
                     R.drawable.cordoba,
                     context.getString(R.string.opcion1_1),

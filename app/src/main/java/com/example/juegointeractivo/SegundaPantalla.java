@@ -23,6 +23,9 @@ public class SegundaPantalla extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
+        String tema = getIntent().getExtras().getString("tema");
+
         textViewPregunta=findViewById(R.id.textView);
         imageView=findViewById(R.id.imageView2);
         btn_op1=findViewById(R.id.buttonop1);
@@ -30,7 +33,7 @@ public class SegundaPantalla extends AppCompatActivity {
         btn_op3=findViewById(R.id.buttonop3);
         btn_op4=findViewById(R.id.buttonop4);
         btn_next=findViewById(R.id.button_next);
-        Controller controler = new Controller(this, "poner tema aca");/************************************************************************************/
+        Controller controler = new Controller(this, tema);/************************************************************************************/
         numeroPregunta=0;
         preguntaActual=controler.preguntas.get(numeroPregunta);
         setPregunta();
@@ -70,7 +73,6 @@ public class SegundaPantalla extends AppCompatActivity {
         btn_op4.setText(preguntaActual.getOpcion4());
         habilitarDeshabilitarTodos(true);
         restaurarColores();
-
     }
 
 

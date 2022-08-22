@@ -2,6 +2,7 @@ package com.example.juegointeractivo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
 
@@ -18,7 +19,21 @@ ImageButton botgeografia, botbiologia,botmatematica, botortografia,botseñales, 
         botortografia=findViewById(R.id.imageButton9);
         botseñales= findViewById(R.id.imageButton10);
         botmedioambiente=findViewById(R.id.imageButton15);
+        Intent intent2=new Intent(selecciontemas.this, SegundaPantalla.class);
 
+
+        botbiologia.setOnClickListener(view -> {
+            intent2.putExtra("tema", "biologia");
+            startActivity(intent2);
+        });
+        botgeografia.setOnClickListener(view -> {
+            intent2.putExtra("tema", "geografía");
+            startActivity(intent2);
+        });
+        botmatematica.setOnClickListener(view -> {
+            intent2.putExtra("tema", "matemática");
+            startActivity(intent2);
+        });
 
     }
 }

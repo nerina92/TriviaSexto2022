@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         buttonJugar=findViewById(R.id.button);
         buttonJugar.setOnClickListener(v->{
-            Intent intent2=new Intent(MainActivity.this, SegundaPantalla.class);
+            Intent intent2=new Intent(MainActivity.this, selecciontemas.class);
             startActivity(intent2);
         });
     }
