@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 public class TerceraPantalla extends AppCompatActivity {
 
-    //completar esta tercer pantalla
+    //completar esta tercer pantalla -
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
