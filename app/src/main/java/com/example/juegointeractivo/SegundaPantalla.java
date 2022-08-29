@@ -11,7 +11,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
-public class SegundaPantalla extends AppCompatActivity {
+public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
+    public int correctas=0;
+    public int incorrectas=0;
     TextView textViewPregunta;
     ImageView imageView;
     Button btn_op1, btn_op2, btn_op3, btn_op4, btn_next;
@@ -56,6 +58,8 @@ public class SegundaPantalla extends AppCompatActivity {
                 setPregunta();
             }else{
                 Intent intent3 = new Intent (SegundaPantalla.this, Resultado.class);
+                intent3.putExtra("correctas",correctas);
+                intent3.putExtra("incorrectas",incorrectas);
                 startActivity(intent3);
             }
         });
@@ -80,10 +84,11 @@ public class SegundaPantalla extends AppCompatActivity {
         habilitarDeshabilitarTodos(false);
         if (opcion==preguntaActual.opcionCorrecta){
             btn.setBackgroundColor(Color.GREEN);
-            contadorcorrectas++;
-            contadorincorrectas++;
+            correctas++;
+
         }else{
             btn.setBackgroundColor(Color.RED);
+            incorrectas++;
         }
         btn_next.setVisibility(View.VISIBLE);
 
