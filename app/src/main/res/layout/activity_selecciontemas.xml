@@ -11,52 +11,65 @@
         android:layout_width="125dp"
         android:layout_height="119dp"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/biologia"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="386dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageButton10"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/biologia" />
 
     <ImageButton
         android:id="@+id/imageButton7"
         android:layout_width="136dp"
         android:layout_height="136dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/geografia"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="27dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageButton8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geografia" />
 
     <ImageButton
         android:id="@+id/imageButton8"
         android:layout_width="129dp"
         android:layout_height="122dp"
+        android:layout_marginEnd="20dp"
         android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/matematica"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="245dp" />
+        tools:layout_editor_absoluteY="237dp" />
 
     <ImageButton
         android:id="@+id/imageButton9"
-        android:layout_width="119dp"
-        android:layout_height="117dp"
+        android:layout_width="137dp"
+        android:layout_height="126dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="160dp"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/ortografia"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="520dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ortografia" />
 
     <ImageButton
         android:id="@+id/imageButton10"
         android:layout_width="132dp"
         android:layout_height="142dp"
+        android:layout_marginStart="40dp"
         android:scaleType="fitStart"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/seniales"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="186dp" />
+        tools:layout_editor_absoluteY="205dp" />
 
     <ImageButton
         android:id="@+id/imageButton15"
         android:layout_width="139dp"
         android:layout_height="128dp"
-        app:srcCompat="?android:attr/textSelectHandleRight"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="527dp" />
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+        app:layout_constraintVertical_bias="0.375"
+        app:srcCompat="?android:attr/textSelectHandleRight" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
