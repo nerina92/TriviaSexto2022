@@ -2,8 +2,135 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Resultado">
+    android:layout_height="match_parent">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <TextView
+        android:id="@+id/mres"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Resultados"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/vjugar"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.100" />
+
+    <Button
+        android:id="@+id/vjugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a Jugar"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.900" />
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/h1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/vjugar"
+        app:layout_constraintTop_toBottomOf="@+id/mres"
+        tools:layout_editor_absoluteX="1dp">
+        <LinearLayout
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp">
+
+            <TextView
+                android:id="@+id/Rcorrectas"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Respuestas Correctas" />
+
+            <TextView
+                android:id="@+id/Rcnum"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:text="TextView"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/Rcima"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp">
+
+            <TextView
+                android:id="@+id/Rincorrectas"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Respuestas Incorrectas" />
+
+            <TextView
+                android:id="@+id/Rinnum"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="TextView"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/Rinima"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
