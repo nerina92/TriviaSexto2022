@@ -7,9 +7,19 @@ public class Pregunta {
     String opcion1, opcion2, opcion3, opcion4;
     int opcionCorrecta;
 
-    public Pregunta(String pregunta,int drawable, /*String urlImagen,*/ String opcion1, String opcion2, String opcion3, String opcion4, int opcionCorrecta) {
+    public Pregunta(String pregunta,int drawable, String opcion1, String opcion2, String opcion3, String opcion4, int opcionCorrecta) {
         this.pregunta = pregunta;
-        //this.urlImagen = urlImagen;
+
+        this.drawable=drawable;
+        this.opcion1 = opcion1;
+        this.opcion2 = opcion2;
+        this.opcion3 = opcion3;
+        this.opcion4 = opcion4;
+        this.opcionCorrecta = opcionCorrecta;
+    }
+    public Pregunta(String pregunta,int drawable, String urlImagen, String opcion1, String opcion2, String opcion3, String opcion4, int opcionCorrecta) {
+        this.pregunta = pregunta;
+        this.urlImagen = urlImagen;
         this.drawable=drawable;
         this.opcion1 = opcion1;
         this.opcion2 = opcion2;
@@ -37,13 +47,13 @@ public class Pregunta {
         this.pregunta = pregunta;
     }
 
-   /* public String getUrlImagen() {
+    public String getUrlImagen() {
         return urlImagen;
     }
 
     public void setUrlImagen(String urlImagen) {
         this.urlImagen = urlImagen;
-    }*/
+    }
 
     public String getOpcion1() {
         return opcion1;
