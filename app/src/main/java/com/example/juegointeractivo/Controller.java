@@ -154,7 +154,7 @@ public class Controller {
                     1);
 
             p9 = new Pregunta(context.getString(R.string.Pregunta),
-                    R.drawable.formosa,
+                    R.drawable.formosa,//formosa
                     context.getString(R.string.opcion1_9),
                     context.getString(R.string.opcion2_9),
                     context.getString(R.string.opcion3_9),

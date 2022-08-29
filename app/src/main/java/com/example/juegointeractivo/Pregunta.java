@@ -17,10 +17,9 @@ public class Pregunta {
         this.opcion4 = opcion4;
         this.opcionCorrecta = opcionCorrecta;
     }
-    public Pregunta(String pregunta,int drawable, String urlImagen, String opcion1, String opcion2, String opcion3, String opcion4, int opcionCorrecta) {
+    public Pregunta(String pregunta, String urlImagen, String opcion1, String opcion2, String opcion3, String opcion4, int opcionCorrecta) {
         this.pregunta = pregunta;
         this.urlImagen = urlImagen;
-        this.drawable=drawable;
         this.opcion1 = opcion1;
         this.opcion2 = opcion2;
         this.opcion3 = opcion3;
@@ -28,16 +27,6 @@ public class Pregunta {
         this.opcionCorrecta = opcionCorrecta;
     }
 
-    public Pregunta(String pregunta,String urlImagen, String opcion1, String opcion2, String opcion3, String opcion4, int opcionCorrecta) {
-        this.pregunta = pregunta;
-        this.urlImagen = urlImagen;
-        //this.drawable=drawable;
-        this.opcion1 = opcion1;
-        this.opcion2 = opcion2;
-        this.opcion3 = opcion3;
-        this.opcion4 = opcion4;
-        this.opcionCorrecta = opcionCorrecta;
-    }
 
     public String getPregunta() {
         return pregunta;
