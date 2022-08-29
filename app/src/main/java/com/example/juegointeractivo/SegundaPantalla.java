@@ -69,8 +69,17 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
     public void setPregunta(){
         btn_next.setVisibility(View.INVISIBLE);
         textViewPregunta.setText(preguntaActual.getPregunta());
-        Picasso.get().load(preguntaActual.getUrlImagen()).into(imageView);
-        imageView.setImageDrawable(getDrawable(preguntaActual.drawable));
+        if (preguntaActual.getUrlImagen()==null){
+
+            imageView.setImageDrawable(getDrawable(preguntaActual.drawable));
+        }else{
+            Picasso.get().load(preguntaActual.getUrlImagen()).into(imageView);
+
+        }
+
+
+
+
         btn_op1.setText(preguntaActual.getOpcion1());
         btn_op2.setText(preguntaActual.getOpcion2());
         btn_op3.setText(preguntaActual.getOpcion3());
