@@ -70,8 +70,7 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
         btn_next.setVisibility(View.INVISIBLE);
         textViewPregunta.setText(preguntaActual.getPregunta());
         if (preguntaActual.getUrlImagen()==null){
-
-            imageView.setImageDrawable(getDrawable(preguntaActual.drawable));
+            imageView.setImageDrawable(getDrawable(preguntaActual.getDrawable()));
         }else{
             Picasso.get().load(preguntaActual.getUrlImagen()).into(imageView);
 

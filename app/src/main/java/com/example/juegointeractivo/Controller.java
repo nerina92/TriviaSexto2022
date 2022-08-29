@@ -1,6 +1,7 @@
 package com.example.juegointeractivo;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 
 import java.util.ArrayList;
 
@@ -52,7 +53,7 @@ public class Controller {
             p9 = new Pregunta(context.getString(R.string.Pregunta2), "https://media.discordapp.net/attachments/970748327568224289/978349549892546560/ama.jpg?width=1164&height=655",context.getString(R.string.op12),context.getString(R.string.op15),context.getString(R.string.op17),context.getString(R.string.op112),4);//el entero es el numero de respuesta correcta
             p10 = new Pregunta(context.getString(R.string.Pregunta2), "https://media.discordapp.net/attachments/970748327568224289/978349549330501702/rojo.jpg",context.getString(R.string.op110),context.getString(R.string.op13),context.getString(R.string.op17),context.getString(R.string.op114),2);//el entero es el numero de respuesta correcta
                 break;
-        case "biología":
+        case "biologia":
             p1 = new Pregunta(context.getString(R.string.p1),
                     //"https://educacion30.b-cdn.net/wp-content/uploads/2016/04/animales-destacada.jpg",
                     R.drawable.pregunta1,"gato", "lobo", "zorro", "perro", 2);
