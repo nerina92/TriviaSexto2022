@@ -57,7 +57,7 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
                 preguntaActual=controler.preguntas.get(numeroPregunta);
                 setPregunta();
             }else{
-                Intent intent3 = new Intent (SegundaPantalla.this, Resultado.class);
+                Intent intent3 = new Intent (SegundaPantalla.this, TerceraPantalla.class);
                 intent3.putExtra("correctas",correctas);
                 intent3.putExtra("incorrectas",incorrectas);
                 startActivity(intent3);

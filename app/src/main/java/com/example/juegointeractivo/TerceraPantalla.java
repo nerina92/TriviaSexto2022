@@ -69,7 +69,7 @@ public class TerceraPantalla extends AppCompatActivity {
         Picasso.get().load(imagecorrecta).into(Rcima);
         Picasso.get().load(imagenincorrecta).into(Rinima);
         vjugar.setOnClickListener(view->{
-            Intent intent4=new Intent(TerceraPantalla.this,MainActivity.class);
+            Intent intent4=new Intent(TerceraPantalla.this, selecciontemas.class);
             startActivity(intent4);
         });
 

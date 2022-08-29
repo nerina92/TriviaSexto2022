@@ -72,19 +72,22 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/Rcnum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="54dp"
-        tools:layout_editor_absoluteY="324dp" />
+        android:text="null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="321dp" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/Rinnum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="319dp"
+        android:text="null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Rcnum"
         tools:layout_editor_absoluteY="321dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

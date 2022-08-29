@@ -41,7 +41,7 @@ public class Controller {
                         "Cuadrado", "Circulo", "Rectangulo", "Triangulo", 2);
 
                 break;
-        case "señales de transito":
+        case "señales":
             p1 = new Pregunta(context.getString(R.string.Pregunta1), "https://media.discordapp.net/attachments/970748327568224289/978349551264096326/Stop.png",context.getString(R.string.op11),context.getString(R.string.op12),context.getString(R.string.op13),context.getString(R.string.op14),3);//el entero es el numero de respuesta correcta. Stop
             p2 = new Pregunta(context.getString(R.string.Pregunta1), "https://media.discordapp.net/attachments/970748327568224289/978349551020810260/rotonda.webp?width=655&height=655",context.getString(R.string.op15),context.getString(R.string.op13),context.getString(R.string.op16),context.getString(R.string.op17),1);//el entero es el numero de respuesta correcta. Seda el paso
             p3 = new Pregunta(context.getString(R.string.Pregunta1), "https://media.discordapp.net/attachments/970748327568224289/978349549586350150/seda_el_paso.png?width=742&height=655",context.getString(R.string.op110),context.getString(R.string.op19),context.getString(R.string.op18),context.getString(R.string.op14),4);//el entero es el numero de respuesta correcta
