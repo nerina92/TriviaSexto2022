@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.squareup.picasso.Picasso;
 
-public class PantallaResultados extends AppCompatActivity {
+public class TerceraPantalla extends AppCompatActivity {
     int correctas;
     int incorrectas;
     Button vjugar;
@@ -69,7 +69,7 @@ public class PantallaResultados extends AppCompatActivity {
         Picasso.get().load(imagecorrecta).into(Rcima);
         Picasso.get().load(imagenincorrecta).into(Rinima);
         vjugar.setOnClickListener(view->{
-            Intent intent4=new Intent(PantallaResultados.this,MainActivity.class);
+            Intent intent4=new Intent(TerceraPantalla.this,MainActivity.class);
             startActivity(intent4);
         });
 
