@@ -11,6 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
+import java.util.Random;
+
 public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
     public int correctas=0;
     public int incorrectas=0;
@@ -19,6 +21,7 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
     Button btn_op1, btn_op2, btn_op3, btn_op4, btn_next;
     Pregunta preguntaActual;
     int numeroPregunta=-1;
+    int cantpreguntas = 0;
     int contadorcorrectas=0;
     int contadorincorrectas=0;
     @Override
@@ -52,8 +55,10 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
             onClickButton(4,btn_op4);
         });
         btn_next.setOnClickListener(view ->{
-            if(numeroPregunta<controler.preguntas.size()-1){
-                numeroPregunta++;
+            if(cantpreguntas<9){
+                cantpreguntas++;
+                Random random = new Random();
+                numeroPregunta=random.nextInt(max + min) + min;
                 preguntaActual=controler.preguntas.get(numeroPregunta);
                 setPregunta();
             }else{
