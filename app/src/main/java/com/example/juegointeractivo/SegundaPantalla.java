@@ -58,7 +58,7 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
             if(cantpreguntas<9){
                 cantpreguntas++;
                 Random random = new Random();
-                numeroPregunta=random.nextInt(max + min) + min;
+                numeroPregunta=random.nextInt(cantpreguntas + 1) + 1;
                 preguntaActual=controler.preguntas.get(numeroPregunta);
                 setPregunta();
             }else{

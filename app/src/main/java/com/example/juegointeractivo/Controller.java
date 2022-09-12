@@ -304,13 +304,13 @@ public class Controller {
             p8= new Pregunta ("Cómo se escribe el acto de rodear algo o a alguien con los brazos, especialmente como muestra de afecto o cariño", "https://static3.abc.es/media/bienestar/2020/01/21/abrazar-abrazos-kS0F--620x349@abc.jpg", "Avrazar", "Abrasar", "Avrasar","Abrazar",4);
             p9= new Pregunta ("¿Cuál se escribe correctamente el pasado del verbo ir?", "https://media.discordapp.net/attachments/991466627856072744/1014149839010942996/Iba.png", "Iba", "Hiva", "Hiba","Iva",3);
             p10= new Pregunta ("", "", "", "", "","",3);
-break;
+            break;
         case "medioambiente":
             p1= new Pregunta("¿Cuántos son los colores de los distintos cestos de reciclaje?", "https://cuestionessociales.files.wordpress.com/2012/06/recicla.jpg?w=640",
                     "4","2","3","6", 4);
             p2 = new Pregunta("¿Qué es la huella hídrica?", "https://img.freepik.com/vector-gratis/vector-doodle-medio-ambiente-concepto-energia-renovable_53876-126615.jpg?w=2000",
                     "El volumen total de agua dulce que se utiliza para la producción de servicios y bienes de un territorio","El nivel de contaminación del agua que tiene un país","El transcurso de un lago","Ninguna es correcta", 1);
-            p3= new Pregunta("El uso medio de una bolsa de plástico es de 15 minutos pero, ¿cuánto tarda en degradarse?", "",
+            p3= new Pregunta("El uso medio de una bolsa de plástico es de 15 minutos pero, ¿cuánto tarda en degradarse?", "https://www.elplural.com/uploads/s1/43/78/61/bolsa-de-plastico-en-caida-libre_4_800x450.jpeg",//falta link
                     "300 años","400 años","500 años","100 años", 3);
             p4= new Pregunta("Los dispositivos eléctricos conectados a la red eléctrica, pero apagados, no consumen energía", "https://s3.amazonaws.com/static.om.anigamy.net/static.biennatural.com.ar/App/Article/consejos-para-ahorrar-energia-y-cuidar-el-medioambiente-6242-mainImage-0.jpg",
                     "Verdadero","Falso","50% de la energia","No sabe",2);
@@ -326,6 +326,7 @@ break;
                     "Las grandes ciudades del hemisferio sur", "Las grandes ciudades costeras", "Las grandes ciudades de los países en vías de desarrollo", "Ninguna es correcta", 2);
             p10= new Pregunta("Los árboles de las ciudades nos regalan grandes estampas en otoño pero tienen otra función. ¿Cuál?", "https://2.bp.blogspot.com/-SnfIDjmBagQ/XMsUObrI0wI/AAAAAAAAAHM/LcN07WqugZEqVXdw3JiduEDTzqmOuxmmwCLcBGAs/s1600/gallery_detail_zonas_verdes_ciudades-1-768x448.png",
                     "Aseguran un suministro constante y seguro de agua", "Protegen a las ciudades de inundaciones", "Ambas son correctas", "Ninguna es correcta", 3);
+            break;
     }
         preguntas.add(p1);
         preguntas.add(p2);
