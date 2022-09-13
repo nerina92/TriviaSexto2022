@@ -69,11 +69,11 @@
         android:id="@+id/imageButton15"
         android:layout_width="139dp"
         android:layout_height="128dp"
-
+        android:scaleType="fitStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton10"
-        app:srcCompat="?android:attr/textSelectHandleRight" />
+        app:srcCompat="@drawable/mediambiente" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
