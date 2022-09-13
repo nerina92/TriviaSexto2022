@@ -288,11 +288,11 @@ public class Controller {
             preguntas.add(p23);
              break;
         case "ortografia":
-            p1= new Pregunta("¿Como se dice hay, ahí o ay cuando hablamos de un lugar?", "",
+            p1= new Pregunta("¿Como se dice hay, ahí o ay cuando hablamos de un lugar?", "https://i.ytimg.com/vi/7jpuzuupSPs/maxresdefault.jpg",
                     "hay","ahi","ay","hai", 2);
-            p2 = new Pregunta("¿Qué palabra está bien escrita?", "",
+            p2 = new Pregunta("¿Qué palabra está bien escrita?", "https://us.123rf.com/450wm/marysan9/marysan91811/marysan9181100238/127822970-coloque-cacerolas-rojas-con-agua-hirviendo-tapa-de-cacerola-abierta-y-cerrada-en-la-estufa-de-gas-fu.jpg?ver=6",
                     "herbir","hervir","erbir","ervir", 2);
-            p3= new Pregunta("Marca la palbra correcta", "",
+            p3= new Pregunta("Marca la palbra correcta", "https://www.lavozdeasturias.es/default/2020/11/11/00121605111152288771735/Foto/hablar.jpg",
                     "hablar","ablar","havlar","avlar", 1);
             p4= new Pregunta("Cuál de las siguientes frases es correcta", "",
                     "A ver si vienes a verme","Haber si vienes a verme","Aber si vienes a verme","Aver si vienes a verme",1);
