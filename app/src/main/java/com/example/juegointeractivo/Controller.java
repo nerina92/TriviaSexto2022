@@ -302,10 +302,10 @@ public class Controller {
                     "ósea", "osea", "ocea", "o sea", 4);
             p7= new Pregunta ("Cómo se escribe el acto de rodear algo o a alguien con los brazos, especialmente como muestra de afecto o cariño", "https://static3.abc.es/media/bienestar/2020/01/21/abrazar-abrazos-kS0F--620x349@abc.jpg", "Avrazar", "Abrasar", "Avrasar","Abrazar",4);
             p8= new Pregunta ("¿Cuál se escribe correctamente el pasado del verbo ir?", "https://media.discordapp.net/attachments/991466627856072744/1014149839010942996/Iba.png", "Iba", "Hiva", "Hiba","Iva",3);
-            /*p9= new Pregunta ("", "",// falta link
-                    "", "", "","",3);
-            p10= new Pregunta ("", "", "", "", "","",3);// faltan datos de la pregunta
-            */
+            p9= new Pregunta ("¿Cómo se conjuga el vervo ir?", "https://www.comodicequedijo.com/wp-content/uploads/2020/07/share_homofonas-yendo-llendo-iendo.png",// falta link
+                    "Llendo", "Yendo", "Iendo","Ninguna es correcta",1);
+            p10= new Pregunta ("¿Cómo se escribe la palabra para el verbo tener?", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnyfkoZys-FyTEadBOqv6bRfL0E02hBCl1O5oCfpbHWTpsLIGysPDpR3uEjaU0PZG4soI&usqp=CAU", "", "", "","",3);
+
             break;
 
         case "medioambiente":
