@@ -5,7 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TerceraPantalla">
+    /*
 
+
+    esta pantalla no se utiliza para nada ---- no borrar por las dudas----
+
+    */
     <ImageView
         android:id="@+id/imageButton"
         android:layout_width="125dp"
