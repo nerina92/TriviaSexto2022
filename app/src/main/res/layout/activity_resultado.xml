@@ -101,8 +101,9 @@
 
             <ImageView
                 android:id="@+id/Rcima"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
+                android:layout_width="77dp"
+                android:layout_height="110dp"
+                android:scaleType="fitStart"
                 tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
 
@@ -110,14 +111,15 @@
             android:id="@+id/h3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginHorizontal="10dp"
             android:orientation="vertical"
             tools:layout_editor_absoluteX="1dp">
 
             <TextView
                 android:id="@+id/Rincorrectas"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Respuestas\nIncorrectas"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -132,8 +134,9 @@
 
             <ImageView
                 android:id="@+id/Rinima"
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
+                android:layout_width="77dp"
+                android:layout_height="110dp"
+                android:scaleType="fitStart"
                 tools:srcCompat="@tools:sample/avatars" />
 
         </LinearLayout>
