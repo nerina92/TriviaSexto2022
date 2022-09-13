@@ -307,7 +307,7 @@ public class Controller {
             p10= new Pregunta ("", "", "", "", "","",3);// faltan datos de la pregunta
             */
             break;
-             */
+             
         case "medioambiente":
             p1= new Pregunta("¿Cuántos son los colores de los distintos cestos de reciclaje?", "https://cuestionessociales.files.wordpress.com/2012/06/recicla.jpg?w=640",
                     "4","2","3","6", 4);
