@@ -81,9 +81,6 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
 
         }
 
-
-
-
         btn_op1.setText(preguntaActual.getOpcion1());
         btn_op2.setText(preguntaActual.getOpcion2());
         btn_op3.setText(preguntaActual.getOpcion3());
@@ -112,6 +109,7 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
         btn_op3.setEnabled(habilitar);
         btn_op4.setEnabled(habilitar);
     }
+
     public void restaurarColores(){
         btn_op1.setBackgroundColor(getColor(R.color.purple_500));
         btn_op2.setBackgroundColor(getColor(R.color.purple_500));
