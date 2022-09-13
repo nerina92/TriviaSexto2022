@@ -298,7 +298,7 @@ public class Controller {
                     "A ver si vienes a verme","Haber si vienes a verme","Aber si vienes a verme","Aver si vienes a verme",1);
             p5= new Pregunta("¿Cuál se utiliza para hacer una pregunta?", "http://1.bp.blogspot.com/-3c3vF3iAGuc/U7PhKlBEjzI/AAAAAAAAeJI/SIO_vaIGUfk/s1600/interrogacion.png",
                     "porque","por que","por què","porquè",3);
-            p6= new Pregunta("¿Cuál es la forma correcta como conector?", "",// falta link
+            p6= new Pregunta("¿Cuál es la forma correcta como conector?", "https://media.discordapp.net/attachments/970748327568224289/1019205187891638282/ocea.png",// falta link
                     "ósea", "osea", "ocea", "o sea", 4);
             p7= new Pregunta ("Cómo se escribe el acto de rodear algo o a alguien con los brazos, especialmente como muestra de afecto o cariño", "https://static3.abc.es/media/bienestar/2020/01/21/abrazar-abrazos-kS0F--620x349@abc.jpg", "Avrazar", "Abrasar", "Avrasar","Abrazar",4);
             p8= new Pregunta ("¿Cuál se escribe correctamente el pasado del verbo ir?", "https://media.discordapp.net/attachments/991466627856072744/1014149839010942996/Iba.png", "Iba", "Hiva", "Hiba","Iva",3);
