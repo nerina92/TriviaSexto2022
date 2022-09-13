@@ -294,12 +294,12 @@ public class Controller {
                     "herbir","hervir","erbir","ervir", 2);
             p3= new Pregunta("Marca la palbra correcta", "https://www.lavozdeasturias.es/default/2020/11/11/00121605111152288771735/Foto/hablar.jpg",
                     "hablar","ablar","havlar","avlar", 1);
-            p4= new Pregunta("Cuál de las siguientes frases es correcta", "",// falta link
+            p4= new Pregunta("Cuál de las siguientes frases es correcta", "https://media.discordapp.net/attachments/970748327568224289/1019199434183164014/haber.png",
                     "A ver si vienes a verme","Haber si vienes a verme","Aber si vienes a verme","Aver si vienes a verme",1);
-            p5= new Pregunta("¿Cuál se utiliza para hacer una pregunta?", "",// falta link
+            p5= new Pregunta("¿Cuál se utiliza para hacer una pregunta?", "http://1.bp.blogspot.com/-3c3vF3iAGuc/U7PhKlBEjzI/AAAAAAAAeJI/SIO_vaIGUfk/s1600/interrogacion.png",
                     "porque","por que","por què","porquè",3);
             p6= new Pregunta("¿Cuál es la forma correcta como conector?", "",// falta link
-                    "osea", "hosea", "ocea", "o sea", 4);
+                    "ósea", "osea", "ocea", "o sea", 4);
             p7= new Pregunta ("Cómo se escribe el acto de rodear algo o a alguien con los brazos, especialmente como muestra de afecto o cariño", "https://static3.abc.es/media/bienestar/2020/01/21/abrazar-abrazos-kS0F--620x349@abc.jpg", "Avrazar", "Abrasar", "Avrasar","Abrazar",4);
             p8= new Pregunta ("¿Cuál se escribe correctamente el pasado del verbo ir?", "https://media.discordapp.net/attachments/991466627856072744/1014149839010942996/Iba.png", "Iba", "Hiva", "Hiba","Iva",3);
             p9= new Pregunta ("", "",// falta link
@@ -311,7 +311,7 @@ public class Controller {
                     "4","2","3","6", 4);
             p2 = new Pregunta("¿Qué es la huella hídrica?", "https://img.freepik.com/vector-gratis/vector-doodle-medio-ambiente-concepto-energia-renovable_53876-126615.jpg?w=2000",
                     "El volumen total de agua dulce que se utiliza para la producción de servicios y bienes de un territorio","El nivel de contaminación del agua que tiene un país","El transcurso de un lago","Ninguna es correcta", 1);
-            p3= new Pregunta("El uso medio de una bolsa de plástico es de 15 minutos pero, ¿cuánto tarda en degradarse?", "https://www.elplural.com/uploads/s1/43/78/61/bolsa-de-plastico-en-caida-libre_4_800x450.jpeg",//falta link
+            p3= new Pregunta("El uso medio de una bolsa de plástico es de 15 minutos pero, ¿cuánto tarda en degradarse?", "https://www.elplural.com/uploads/s1/43/78/61/bolsa-de-plastico-en-caida-libre_4_800x450.jpeg",
                     "300 años","400 años","500 años","100 años", 3);
             p4= new Pregunta("Los dispositivos eléctricos conectados a la red eléctrica, pero apagados, no consumen energía", "https://s3.amazonaws.com/static.om.anigamy.net/static.biennatural.com.ar/App/Article/consejos-para-ahorrar-energia-y-cuidar-el-medioambiente-6242-mainImage-0.jpg",
                     "Verdadero","Falso","50% de la energia","No sabe",2);
