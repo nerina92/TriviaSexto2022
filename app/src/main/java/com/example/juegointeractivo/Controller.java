@@ -302,10 +302,12 @@ public class Controller {
                     "ósea", "osea", "ocea", "o sea", 4);
             p7= new Pregunta ("Cómo se escribe el acto de rodear algo o a alguien con los brazos, especialmente como muestra de afecto o cariño", "https://static3.abc.es/media/bienestar/2020/01/21/abrazar-abrazos-kS0F--620x349@abc.jpg", "Avrazar", "Abrasar", "Avrasar","Abrazar",4);
             p8= new Pregunta ("¿Cuál se escribe correctamente el pasado del verbo ir?", "https://media.discordapp.net/attachments/991466627856072744/1014149839010942996/Iba.png", "Iba", "Hiva", "Hiba","Iva",3);
-            p9= new Pregunta ("", "",// falta link
+            /*p9= new Pregunta ("", "",// falta link
                     "", "", "","",3);
             p10= new Pregunta ("", "", "", "", "","",3);// faltan datos de la pregunta
+            */
             break;
+             */
         case "medioambiente":
             p1= new Pregunta("¿Cuántos son los colores de los distintos cestos de reciclaje?", "https://cuestionessociales.files.wordpress.com/2012/06/recicla.jpg?w=640",
                     "4","2","3","6", 4);
