@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Juego interactivo</string>
+    <string name="app_name">Trivia interactiva</string>
     <string name="p1">¿Qué animal es el de la imagen? </string>
     <string name="p2">"¿La siguiente imagen a que reino pertenece?"</string>
     <string name="p3">¿A que raza pertenece el siguiente perro?</string>

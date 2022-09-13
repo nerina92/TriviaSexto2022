@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
@@ -22,8 +23,8 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
     Pregunta preguntaActual;
     int numeroPregunta=-1;
     int cantpreguntas = 0;
-    int contadorcorrectas=0;
-    int contadorincorrectas=0;
+    ArrayList<Integer> numerosPreguntas = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,10 +56,18 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
             onClickButton(4,btn_op4);
         });
         btn_next.setOnClickListener(view ->{
-            if(cantpreguntas<9){
+            if(cantpreguntas<4){
                 cantpreguntas++;
                 Random random = new Random();
                 numeroPregunta=random.nextInt(cantpreguntas + 1) + 1;
+                if(numerosPreguntas.isEmpty()){
+                    numerosPreguntas.add(numeroPregunta);
+                }else{
+                    do{
+                        numeroPregunta=random.nextInt(cantpreguntas+1)+1;
+                    }while(controlarSiYaSeHizoLaPregunta(numeroPregunta));
+                }
+
                 preguntaActual=controler.preguntas.get(numeroPregunta);
                 setPregunta();
             }else{
@@ -70,7 +79,13 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
         });
 
     }
-
+public boolean controlarSiYaSeHizoLaPregunta(int numeroPregunta){
+    if(numerosPreguntas.contains(numeroPregunta)){
+        return true;
+    }else{
+        return false;
+    }
+}
     public void setPregunta(){
         btn_next.setVisibility(View.INVISIBLE);
         textViewPregunta.setText(preguntaActual.getPregunta());
