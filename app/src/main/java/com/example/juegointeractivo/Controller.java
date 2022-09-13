@@ -294,16 +294,17 @@ public class Controller {
                     "herbir","hervir","erbir","ervir", 2);
             p3= new Pregunta("Marca la palbra correcta", "https://www.lavozdeasturias.es/default/2020/11/11/00121605111152288771735/Foto/hablar.jpg",
                     "hablar","ablar","havlar","avlar", 1);
-            p4= new Pregunta("Cuál de las siguientes frases es correcta", "",
+            p4= new Pregunta("Cuál de las siguientes frases es correcta", "",// falta link
                     "A ver si vienes a verme","Haber si vienes a verme","Aber si vienes a verme","Aver si vienes a verme",1);
-            p5= new Pregunta("¿Cuál se utiliza para hacer una pregunta?", "",
+            p5= new Pregunta("¿Cuál se utiliza para hacer una pregunta?", "",// falta link
                     "porque","por que","por què","porquè",3);
-            p6= new Pregunta("¿Cuál es la forma correcta como conector?", "",
+            p6= new Pregunta("¿Cuál es la forma correcta como conector?", "",// falta link
                     "osea", "hosea", "ocea", "o sea", 4);
-            p7= new Pregunta ("", "", "", "", "","",3);
-            p8= new Pregunta ("Cómo se escribe el acto de rodear algo o a alguien con los brazos, especialmente como muestra de afecto o cariño", "https://static3.abc.es/media/bienestar/2020/01/21/abrazar-abrazos-kS0F--620x349@abc.jpg", "Avrazar", "Abrasar", "Avrasar","Abrazar",4);
-            p9= new Pregunta ("¿Cuál se escribe correctamente el pasado del verbo ir?", "https://media.discordapp.net/attachments/991466627856072744/1014149839010942996/Iba.png", "Iba", "Hiva", "Hiba","Iva",3);
-            p10= new Pregunta ("", "", "", "", "","",3);
+            p7= new Pregunta ("Cómo se escribe el acto de rodear algo o a alguien con los brazos, especialmente como muestra de afecto o cariño", "https://static3.abc.es/media/bienestar/2020/01/21/abrazar-abrazos-kS0F--620x349@abc.jpg", "Avrazar", "Abrasar", "Avrasar","Abrazar",4);
+            p8= new Pregunta ("¿Cuál se escribe correctamente el pasado del verbo ir?", "https://media.discordapp.net/attachments/991466627856072744/1014149839010942996/Iba.png", "Iba", "Hiva", "Hiba","Iva",3);
+            p9= new Pregunta ("", "",// falta link
+                    "", "", "","",3);
+            p10= new Pregunta ("", "", "", "", "","",3);// faltan datos de la pregunta
             break;
         case "medioambiente":
             p1= new Pregunta("¿Cuántos son los colores de los distintos cestos de reciclaje?", "https://cuestionessociales.files.wordpress.com/2012/06/recicla.jpg?w=640",
