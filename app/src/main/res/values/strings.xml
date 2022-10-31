@@ -1,20 +1,20 @@
 <resources>
     <string name="app_name">Trivia interactiva</string>
     <string name="p1">¿Qué animal es el de la imagen? </string>
-    <string name="p2">"¿La siguiente imagen a que reino pertenece?"</string>
-    <string name="p3">¿A que raza pertenece el siguiente perro?</string>
-    <string name="p4">"¿A que bioma pertenece el siguiente animal?"</string>
-    <string name="p5">"¿Cual de los siguientes es el animal mas grande?"</string>
+    <string name="p2">"La siguiente imagen, ¿a qué reino pertenece?"</string>
+    <string name="p3">¿A qué raza pertenece el siguiente perro?</string>
+    <string name="p4">"¿A qué bioma pertenece el siguiente animal?"</string>
+    <string name="p5">"¿Cuál de los siguientes es el animal más grande?"</string>
     <string name="p6">"El pulpo pertenece al reino protista"</string>
     <string name="p7">"¿Cuál es el significado de las siglas ADN?"</string>
-    <string name="p8">"¿Que es un ecosistema?"</string>
+    <string name="p8">"¿Qué es un ecosistema?"</string>
     <string name="p9">"¿Cuál es la diferencia entre los vertebrados y los invertebrados?"</string>
     <string name="p10">"¿Qué pájaro pone el huevo más pequeño?"</string>
 
 
 
-    <string name="Pregunta1">¿Que significa la siguiente señal?</string> //pregunta uno todo lo que es señales
-    <string name="Pregunta2">¿Que significa el siguiente color en el semaforo?</string>
+    <string name="Pregunta1">¿Qué significa la siguiente señal?</string> //pregunta uno todo lo que es señales
+    <string name="Pregunta2">¿Qué significa el siguiente color en el semáforo?</string>
     <string name="op11">Continuar</string>
     <string name="op12">Gire a la derecha</string>
     <string name="op13">Pare</string>
@@ -28,11 +28,11 @@
     <string name="op111">Siga</string>
     <string name="op112">Precaución</string>
     <string name="op113">Contra mano</string>
-    <string name="op114">Limite de velociad</string>
+    <string name="op114">Límite de velociad</string>
 
-    <string name="Pregunta">¿Cual es la provincia en la imagen?</string>
+    <string name="Pregunta">¿Cuál es la provincia en la imagen?</string>
 
-    <string name="opcion1_1">Cordoba</string>
+    <string name="opcion1_1">Córdoba</string>
     <string name="opcion2_1">Santiago del Estero</string>
     <string name="opcion3_1">Santa Fe</string>
     <string name="opcion4_1">La Pampa</string>
@@ -41,23 +41,23 @@
     <string name="opcion3_2">Chaco</string>
     <string name="opcion4_2">Santa Cruz</string>
     <string name="opcion1_3">San Juan</string>
-    <string name="opcion2_3">Entre Rios</string>
+    <string name="opcion2_3">Entre Ríos</string>
     <string name="opcion3_3">Corrientes</string>
-    <string name="opcion4_3">Tucuman</string>
+    <string name="opcion4_3">Tucumán</string>
     <string name="opcion1_4">Corrientes</string>
-    <string name="opcion2_4">Neuquen</string>
+    <string name="opcion2_4">Neuquén</string>
     <string name="opcion3_4">La Pampa</string>
     <string name="opcion4_4">Formosa</string>
     <string name="opcion1_5">Tierra del fuego</string>
     <string name="opcion2_5">San Luis</string>
     <string name="opcion3_5">Jujuy</string>
-    <string name="opcion4_5">Tucuman</string>
+    <string name="opcion4_5">Tucumán</string>
     <string name="opcion1_6">Buenos Aires</string>
     <string name="opcion2_6">San Luis</string>
     <string name="opcion3_6">Catamarca</string>
-    <string name="opcion4_6">Entre rios</string>
+    <string name="opcion4_6">Entre Ríos</string>
     <string name="opcion1_7">Santa Fe</string>
-    <string name="opcion2_7">Santiagpo del estero</string>
+    <string name="opcion2_7">Santiago del estero</string>
     <string name="opcion3_7">Catamarca</string>
     <string name="opcion4_7">Salta</string>
     <string name="opcion1_8">Misioes</string>
@@ -67,10 +67,10 @@
     <string name="opcion1_9">Chaco</string>
     <string name="opcion2_9">Formosa</string>
     <string name="opcion3_9">Jujuy</string>
-    <string name="opcion4_9">Cordoba</string>
+    <string name="opcion4_9">Córdoba</string>
     <string name="opcion1_10">Buenos Aires</string>
     <string name="opcion2_10">Catamarca</string>
-    <string name="opcion3_10">Rio Negro</string>
+    <string name="opcion3_10">Río Negro</string>
     <string name="opcion4_10">Jujuy</string>
     <string name="opcion1_11">La Rioja</string>
     <string name="opcion2_11">Santiago del Estero</string>
@@ -81,23 +81,23 @@
     <string name="opcion3_12">Santiago del estero</string>
     <string name="opcion4_12">Santa Cruz</string>
     <string name="opcion1_13">Salta</string>
-    <string name="opcion2_13">Entre Rios</string>
+    <string name="opcion2_13">Entre Ríos</string>
     <string name="opcion3_13">Corrientes</string>
-    <string name="opcion4_13">Tucuman</string>
+    <string name="opcion4_13">Tucumán</string>
     <string name="opcion1_14">Mendoza</string>
-    <string name="opcion2_14">Neuquen</string>
+    <string name="opcion2_14">Neuquén</string>
     <string name="opcion3_14">Buenos Aires</string>
     <string name="opcion4_14">Formosa</string>
     <string name="opcion1_15">Tierra del fuego</string>
     <string name="opcion2_15">San Luis</string>
     <string name="opcion3_15">Jujuy</string>
-    <string name="opcion4_15">Rio Negro</string>
+    <string name="opcion4_15">Río Negro</string>
     <string name="opcion1_16">Buenos Aires</string>
-    <string name="opcion2_16">Cordoba</string>
-    <string name="opcion3_16">Neuquen</string>
-    <string name="opcion4_16">Entre rios</string>
+    <string name="opcion2_16">Córdoba</string>
+    <string name="opcion3_16">Neuquén</string>
+    <string name="opcion4_16">Entre Ríos</string>
     <string name="opcion1_17">Santa Fe</string>
-    <string name="opcion2_17">Santiagpo del estero</string>
+    <string name="opcion2_17">Santiagpo del Estero</string>
     <string name="opcion3_17">Chubut</string>
     <string name="opcion4_17">Salta</string>
     <string name="opcion1_18">San Luis</string>
@@ -110,7 +110,7 @@
     <string name="opcion4_19">Santa cruz</string>
     <string name="opcion1_20">La Pampa</string>
     <string name="opcion2_20">Catamarca</string>
-    <string name="opcion3_20">Rio Negro</string>
+    <string name="opcion3_20">Río Negro</string>
     <string name="opcion4_20">Misiones</string>
     <string name="opcion1_21">Misioes</string>
     <string name="opcion2_21">Corrientes</string>
@@ -119,10 +119,10 @@
     <string name="opcion1_22">Chaco</string>
     <string name="opcion2_22">Mendoza</string>
     <string name="opcion3_22">Jujuy</string>
-    <string name="opcion4_22">Cordoba</string>
+    <string name="opcion4_22">Córdoba</string>
     <string name="opcion1_23">Buenos Aires</string>
     <string name="opcion2_23">Catamarca</string>
-    <string name="opcion3_23">Rio Negro</string>
+    <string name="opcion3_23">Río Negro</string>
     <string name="opcion4_23">Misiones</string>
 
 
