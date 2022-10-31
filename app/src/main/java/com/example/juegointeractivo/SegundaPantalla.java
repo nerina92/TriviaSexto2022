@@ -63,9 +63,16 @@ public class SegundaPantalla<correctas, incorrectas> extends AppCompatActivity {
                 if(numerosPreguntas.isEmpty()){
                     numerosPreguntas.add(numeroPregunta);
                 }else{
-                    do{
-                        numeroPregunta=random.nextInt(cantpreguntas+1)+1;
-                    }while(controlarSiYaSeHizoLaPregunta(numeroPregunta));
+                    boolean h =true;
+                    while(h==true){
+                        if(numerosPreguntas.contains(numeroPregunta)){
+                            numeroPregunta=random.nextInt(cantpreguntas + 1) + 1;
+                        }else{
+                            h = false;
+                            numerosPreguntas.add(numeroPregunta);
+                        }
+                    }
+
                 }
 
                 preguntaActual=controler.preguntas.get(numeroPregunta);
